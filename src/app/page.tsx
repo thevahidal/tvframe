@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   return (
     <iframe
       src={iframeSrc}
-      style={{ width: '100%', height: '100vh' }}
+      style={{ width: '100%', height: '100vh', border: 'none' }}
       sandbox="allow-same-origin allow-scripts allow-popups"
       title="FilmNet"
       onLoad={(e) => {
